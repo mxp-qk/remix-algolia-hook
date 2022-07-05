@@ -39,5 +39,11 @@
   },
   "prettier": {
     "singleQuote": false
-  }
+  },
+  "keywords": [
+    "algolia",
+    "remix"
+  ],
+  "name": "remix-algolia-hook",
+  "description": "A use case of Algolia and Remix Run framework"
 }
