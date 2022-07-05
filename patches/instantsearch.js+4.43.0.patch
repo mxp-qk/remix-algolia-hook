@@ -1,0 +1,12 @@
+diff --git a/node_modules/instantsearch.js/es/lib/routers/history.js b/node_modules/instantsearch.js/es/lib/routers/history.js
+index 2ffbfbe..b173001 100644
+--- a/node_modules/instantsearch.js/es/lib/routers/history.js
++++ b/node_modules/instantsearch.js/es/lib/routers/history.js
+@@ -104,6 +104,7 @@ var BrowserHistory = /*#__PURE__*/function () {
+           setWindowTitle(title);
+ 
+           if (_this2.shouldWrite(url)) {
++            console.log("Instantsearch.js psuhState to window history",url)
+             window.history.pushState(routeState, title || '', url);
+             _this2.latestAcknowledgedHistory = window.history.length;
+           }
